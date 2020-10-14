@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+  }
+  
+  .testcubes {
+    margin: 10px auto;
+  }
+  
+  .testcubebig {
+    min-height: 400px;
+  }
+  
+  .modelcard {
+    margin: 20px 0px;
+  }

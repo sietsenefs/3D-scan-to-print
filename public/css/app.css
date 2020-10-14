@@ -1,15 +1,15 @@
-body{
+body {
     background-color: white;
-}
-
-.testcubes{
+  }
+  
+  .testcubes {
     margin: 10px auto;
-}
-
-.testcubebig{
+  }
+  
+  .testcubebig {
     min-height: 400px;
-}
-
-.modelcard{
+  }
+  
+  .modelcard {
     margin: 20px 0px;
-}
+  }

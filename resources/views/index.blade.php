@@ -37,7 +37,7 @@
 
 
 
-<link rel="stylesheet" href="css/main.css" >
+<link rel="stylesheet" href="css/app.css" >
 
 </head>
 
@@ -92,15 +92,15 @@
               Test 1
             </div>
             <div class="card-body">
-              <h5 class="card-title">normal test cube</h5>
+              <h5 class="card-title">scene test</h5>
         
-                    <model-viewer src="testcube1.gltf" class="testcubes col-md-12"
+                    <model-viewer src="{{asset('models/testtest.gltf')}}" class="testcubes col-md-12"
                                 auto-rotate 
                                 camera-controls
                                 background-color="#70BCD1"
                               alt="A 3D model of a test cube">
                     </model-viewer>
-        
+                    <button onclick="addHotspot()">Add Hotspot</button>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
             <div class="card-footer text-muted">
@@ -119,7 +119,7 @@
             <div class="card-body">
               <h5 class="card-title">Shiny test cube</h5>
         
-                    <model-viewer src="testcube2.gltf" class="testcubes col-md-12"
+                    <model-viewer src="{{asset('models/testcube2.gltf')}}" class="testcubes col-md-12"
                                 auto-rotate 
                                 camera-controls
                                 background-color="#70BCD1"
@@ -143,9 +143,9 @@
               Test 3
             </div>
             <div class="card-body">
-              <h5 class="card-title">Shiny test cube</h5>
+              <h5 class="card-title">.glb test cube</h5>
         
-                    <model-viewer src="testcube2.gltf" class="testcubes col-md-12"
+                    <model-viewer src="{{asset('models/testcube1.glb')}}" class="testcubes col-md-12"
                                 auto-rotate 
                                 camera-controls
                                 background-color="#70BCD1"
@@ -173,7 +173,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Iphone case</h5>
             
-                        <model-viewer src="models/iphone-xr-case.gltf" class="testcubes testcubebig col-md-12"
+                        <model-viewer src="{{asset('models/iphone-xr-case.gltf')}}" class="testcubes testcubebig col-md-12"
                                     auto-rotate 
                                     camera-controls
                                     background-color="#254441"
