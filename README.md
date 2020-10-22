@@ -3,6 +3,13 @@
 
 # Links
 from here you can navigate to all the little projects within the main project
-* 3D print to scan website
-* Ikea skadis pegboard
-* 3D scans
+
+
+## Print / scans
+* Ikea skadis pegboard      | https://github.com/sietsenefs/Ikea-Skadis-3d-print-and-lasercut
+* 3D scans                  |
+
+
+## website
+* 3D print to scan website  | https://github.com/sietsenefs/3D-Scan-To-Print-Website
+* model viewer annotations  | https://github.com/sietsenefs/3D-Scan-To-Print-Website
