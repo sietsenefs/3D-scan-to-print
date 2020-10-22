@@ -6,7 +6,7 @@ from here you can navigate to all the little projects within the main project
 
 
 ## Print / scans
-* Ikea skadis pegboard      | https://github.com/sietsenefs/Ikea-Skadis-3d-print-and-lasercut
+* Ikea skadis pegboard      | https://github.com/sietsenefs/Ikea-Skadis-Display-Project
 * 3D scans                  |
 
 
